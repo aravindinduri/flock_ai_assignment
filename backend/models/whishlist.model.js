@@ -2,13 +2,17 @@ import mongoose from 'mongoose';
 
 const wishlistSchema = new mongoose.Schema({
   name: String,
-  createdBy: String,
-  members: [String],
+  description: String,
+  createdBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+  members: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }],
   products: [{
     name: String,
-    image: String,
+    description: String,
     price: Number,
-    addedBy: String,
+    url: String,
+    notes: String,
+    image: String,
+    addedBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
     createdAt: { type: Date, default: Date.now },
   }],
 }, { timestamps: true });
