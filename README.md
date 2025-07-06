@@ -2,6 +2,10 @@
 
 This is the frontend for the Wishlist App, built with React, Vite, Tailwind CSS, shadcn/ui, and Axios.
 
+### note : 
+``
+node version should be >= 20
+``
 ## 🚀 Setup & Installation
 
 1. **Clone the repository:**
@@ -77,4 +81,40 @@ This is the backend API for the Wishlist App, built with Express.js and MongoDB.
 - `PUT /api/wishlist/:id/product/:productId` — Update a product in a wishlist
 - `DELETE /api/wishlist/:id/product/:productId` — Remove a product from a wishlist
 
+
+## 🛠 Tech Stack Used
+
+### Frontend:
+- React (Vite)
+- Tailwind CSS
+- shadcn/ui (UI components)
+- lucide-react (icons)
+- Axios
+- React Router DOM
+- Context API
+
+### Backend:
+- Node.js with Express
+- MongoDB with Mongoose
+- JWT for authentication
+- bcryptjs for password hashing
+- CORS, dotenv
+
 ---
+
+## 🚀 Thoughts on Scaling / Improving the App
+
+##### 🛍️ Shared Checkout Integration 
+#### Link to multiple e-commerce APIs so the group can checkout shared items directly from their wishlist.
+
+## 📦 Budget Tracker
+
+##### Add a shared budget calculator that updates dynamically as items are added.
+
+## 🎨 Theme Customization
+
+###### Allow each group to choose a custom theme or background for their wishlist for a more personalized experience.
+
+---
+📹 **Demo Video**: [Click to watch on Google Drive](https://drive.google.com/file/d/1W6QFDT6Rt7w3uYFMdWIl6vtQIp7ghw2c/view?usp=sharing)
+
