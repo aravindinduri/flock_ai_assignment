@@ -116,5 +116,4 @@ This is the backend API for the Wishlist App, built with Express.js and MongoDB.
 ###### Allow each group to choose a custom theme or background for their wishlist for a more personalized experience.
 
 ---
-📹 **Demo Video**: [Click to watch on Google Drive](https://drive.google.com/file/d/1W6QFDT6Rt7w3uYFMdWIl6vtQIp7ghw2c/view?usp=sharing)
 
